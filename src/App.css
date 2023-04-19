@@ -1,0 +1,140 @@
+body{
+  overflow-x: hidden;
+}
+.navbar{
+ margin-top: 40px;
+ box-shadow:  0px 4px 5px rgb(236, 226, 226);
+}
+.W{
+  margin-left: 200px;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.ul{ 
+  display: inline-block;
+  margin-left: 35%;
+}
+.list{
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.con2{
+  width: 50%;
+  height: 40vh;
+}
+.divimg{
+  width: 100%;
+  height: 40vh;
+ background-image: url(./assets/image-web-3-desktop.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.paracon{
+  display: flex;
+  flex-direction: row;
+}
+.para{
+  width: 50%;
+  height: 25vh;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.para2{
+  width: 50%;
+  height: 25vh;
+  margin-top: 30px;
+}
+.para2 button{
+  color: white;
+  font-size: small;
+  width: 40%;
+  height: 20%;
+  margin-top: 40px;
+}
+.aside{
+  border: 1px solid black;
+  background-color: rgb(24, 14, 49);
+  width: 27%;
+  height: 65vh;
+}
+.asidepara{
+  margin-left: 10px;
+}
+.asidepara hr{
+  margin-top: 20px;
+}
+.asparschild{
+  margin-top: 30px;
+}
+.asparschild hr{
+  margin-top: 20px;
+}
+.aside h1{
+  font-size: 30px;
+  font-weight: 900;
+  color: goldenrod;
+}
+.aside h3{
+  color: white;
+}
+.aside p{
+  color: rgba(204, 186, 186, 0.342);
+}
+
+/* section2 */
+.container2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+.retro{
+display: flex;
+flex-direction: row;
+width: 28%;
+}
+.retroimg{
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  background-image: url(./assets/image-retro-pcs.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.retropara h1{
+  font-size: 25px;
+  font-weight: 800;
+  color: aquamarine;
+}
+.retropara h3{
+  font-size: 15px;
+  font-weight: 800;
+}
+.retropara p{
+  font-size: 12px;
+}
+.laptopimg{
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  background-image: url(./assets/image-top-laptops.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gamingimg{
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  background-image: url(./assets/image-gaming-growth.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+} 
